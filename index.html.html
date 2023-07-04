@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table ,td,tr,th{
+            border-bottom:1px solid #ccc;
+            border-collapse: collapse;
+            padding:15px;
+        }
+        td:nth-child(odd){
+            background-color: #eef7ff;
+
+        }
+        .head{
+            background: #427fef;
+            color:#fff;
+
+        }
+        .head:nth-child(1){
+            text-align: left;
+        }
+        .box{
+            width:300px;
+            height:300px;
+            border-radius: 10px;
+            background-color: tomato;
+            box-shadow: 13px 6px #ccc;
+        }
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <h1>1st exercise-creating table</h1>
+    <table>
+        <thead>
+            <tr  class="head">
+            <th>Country</th>
+            <th>OrderID</th>
+            <th>OrderAmount</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td>1000</td>
+                <td>$1300</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>1000</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>England</td>
+                <td>1000</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>England</td>
+                <td>1000</td>
+                <td>$100</td>
+            </tr>
+        </tbody>
+        <tfoot >
+            <tr class="head">
+                <th colspan="2">Total</th>
+                <th>$5000</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h1>2nd exercise</h1>
+    <div class="box">
+
+    </div>
+    
+</body>
+</html>
